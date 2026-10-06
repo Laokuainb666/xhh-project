@@ -1,0 +1,20 @@
+# OS / editor
+Thumbs.db
+Desktop.ini
+desktop.ini
+.DS_Store
+*.swp
+*~
+
+# temp / build
+tmp/
+temp/
+node_modules/
+_md2pdf_*_tmp.html
+*-p1.png
+
+# local secrets (should never exist here)
+.env
+.env.*
+*.pem
+*.key
